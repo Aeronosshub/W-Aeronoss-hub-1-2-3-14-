@@ -1,13 +1,11 @@
 local player = game.Players.LocalPlayer
 
 local function kickPlayer(player)
-    player:Kick("Script Offline Please Wait!")
+   player:Kick("script off LOL")
 end
 
 if player then
-    kickPlayer(player)
+     kickPlayer(player)
 else
-    print("lol.")
+    print("lol")
 end
-
-setclipboard("https://discord.gg/HDPUHmUUwK")
